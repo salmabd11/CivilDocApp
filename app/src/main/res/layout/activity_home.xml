@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/WelcomTxt"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#4A048F"
+        android:textSize="25dp"
+        android:text="@string/welcomeNot" />
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/WelcomTxt"
+        android:src="@drawable/civilchiplogo"/>
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/PdfView"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/condocoment"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"
+                    tools:ignore="HardcodedText" />
+                <Button
+                    android:id="@+id/BasicCalculationBTN"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/construction_process"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/allcalBTN"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/all_calculation"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+                <Button
+                    android:id="@+id/onResetBtn"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Coming Soon"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:elegantTextHeight="true"
+                android:textAlignment="center"
+                android:textColor="#4A048F"
+                android:textSize="25dp"
+                android:text="Construction Docoments" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/Mobilization"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Mobilization"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+
+                <Button
+                    android:id="@+id/Reqution"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Reqution"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/Req"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Req"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+                <Button
+                    android:id="@+id/Mobilizationfinal"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Mobilization Final"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/UpcomingBtn2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Coming Soon"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+                <Button
+                    android:id="@+id/UpcomingBtn3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Coming Soon"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/UpcomingBtn4"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Coming Soon"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+                <Button
+                    android:id="@+id/UpcomingBtn5"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Coming Soon"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/UpcomingBtn6"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Coming Soon"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+                <Button
+                    android:id="@+id/UpcomingBtn7"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Coming Soon"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="#ECECEF"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:padding="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/ShareBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backtextview"
+                    android:textColor="#05000B"
+                    android:layout_marginRight="3dp"
+                    android:text="Share"/>
+
+                <Button
+                    android:id="@+id/privacypolicy"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backtextview"
+                    android:textColor="#05000B"
+                    android:layout_marginRight="3dp"
+                    android:text="privacy policy"/>
+                <Button
+                    android:id="@+id/advideobutton"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backtextview"
+                    android:textColor="#05000B"
+                    android:layout_marginRight="3dp"
+                    android:visibility="invisible"
+                    android:text="Magic"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

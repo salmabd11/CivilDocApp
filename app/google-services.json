@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "303258161803",
+    "firebase_url": "https://civil-abc.firebaseio.com",
+    "project_id": "civil-abc",
+    "storage_bucket": "civil-abc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303258161803:android:df43924b5814fb7a00ba8e",
+        "android_client_info": {
+          "package_name": "com.e.civilabc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303258161803-j5a47dhqs4jel8r6644vg1c1ridd6817.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTJG8-xCKSYQWmremyhICjy_or42a7bFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303258161803-j5a47dhqs4jel8r6644vg1c1ridd6817.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-5084042290697877~2978831332"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303258161803:android:e09fa21cee22e38100ba8e",
+        "android_client_info": {
+          "package_name": "com.example.civildoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303258161803-j5a47dhqs4jel8r6644vg1c1ridd6817.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTJG8-xCKSYQWmremyhICjy_or42a7bFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303258161803-j5a47dhqs4jel8r6644vg1c1ridd6817.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303258161803:android:e87b9ab29242304700ba8e",
+        "android_client_info": {
+          "package_name": "com.numan.alquranvideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303258161803-j5a47dhqs4jel8r6644vg1c1ridd6817.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTJG8-xCKSYQWmremyhICjy_or42a7bFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303258161803-j5a47dhqs4jel8r6644vg1c1ridd6817.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:background="@drawable/backtextview"
+    tools:context=".SignUp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/app_name"
+            android:layout_marginTop="100dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="88dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:textColor="@color/colorPrimaryDark"
+            android:nextFocusDown="@id/edit_text_email" />
+
+
+        <EditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:nextFocusDown="@id/edit_text_designation"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/edit_text_designation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Designation"
+            android:nextFocusDown="@id/edit_text_password"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:nextFocusDown="@id/edit_text_phone"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <EditText
+
+            android:id="@+id/edit_text_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="Phone"
+            android:inputType="number"
+            android:maxLength="11"
+            android:nextFocusDown="@id/edit_text_company"
+            android:textColor="@color/colorPrimaryDark" />
+        <EditText
+
+            android:id="@+id/edit_text_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company Name"
+            android:nextFocusDown="@id/edit_text_Adderss"
+            android:textColor="@color/colorPrimaryDark" />
+        <EditText
+            android:id="@+id/edit_text_Adderss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company Adderss"
+            android:nextFocusDown="@id/button_register"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backtextview"
+            android:text="Register"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>

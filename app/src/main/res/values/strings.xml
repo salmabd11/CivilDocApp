@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Civil Doc</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="input_error_name">Name</string>
+    <string name="input_error_designation">Designation</string>
+    <string name="input_error_email">Email</string>
+    <string name="input_error_email_invalid">Email Invalid</string>
+    <string name="input_error_password">Password</string>
+    <string name="input_error_password_length">Password Length</string>
+    <string name="input_error_phone">Phone Number</string>
+    <string name="input_error_phone_invalid">Phone Number Invalid</string>
+    <string name="input_error_Company">Company Name</string>
+    <string name="input_error_Adderss">Company Adderss</string>
+    <string name="registration_success">Registration Success</string>
+    <string name="construction_process">Construction Process</string>
+    <string name="ratio">Ratio = </string>
+    <string name="FiveInchBW">     5" Brick Work (1:4) = </string>
+    <string name="FTenInchBW">     10" Brick Work (1:6)= </string>
+    <string-array name="category_list">
+        <item>Concrete</item>
+        <item>Block</item>
+        <item>Brick</item>
+        <item>Rubble</item>
+        <item>Roofing</item>
+        <item>Painting</item>
+        <item>Plastering</item>
+    </string-array>
+
+
+    <string name="choose_your_size">Choose your Size</string>
+    <string name="unit_your_choice">Unit Your Choice</string>
+    <string name="thickness">Thickness</string>
+    <string name="stone_brick_chips">Stone/Brick Chips</string>
+    <string name="formulas">Construction Formulas</string>
+    <string name="welcomeNot">Welcome To Civil Docoment</string>
+    <string name="note1">** All Cement, Sand, Metal and amounts are in units provided for Your Choice.All Calculation Including (+, -) 10%.</string>
+    <string name="condocoment">Construction Docoment</string>
+    <string name="all_calculation">All Calculation</string>
+
+</resources>

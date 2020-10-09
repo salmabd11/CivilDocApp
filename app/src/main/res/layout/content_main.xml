@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="  Mobilization FORM    "
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="#030007"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F9F6FB"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text=" Name:    "
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="#030007"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/NameDATA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="Name"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="#04000C"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text=" Phone:   "
+                    android:textColor="#030007"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/PhoneDATA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="Phone"
+                    android:textColor="#04000B"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text=" Email:   "
+                    android:textColor="#030007"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/EmailDATA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="Email"
+                    android:textColor="#04000C"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text=" Designation: "
+                    android:textColor="#030007"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/DesignationDATA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="Designation"
+                    android:textColor="#030009"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text=" Company: "
+                    android:textColor="#030007"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/CompanyDATA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="Company"
+                    android:textColor="#04000B"
+                    android:textSize="14dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text=" Company Adderss: "
+                    android:textColor="#030007"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/AdderssDATA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="Company Adderss"
+                    android:textColor="#04000B"
+                    android:textSize="11dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Ref-No: "
+                    android:textAllCaps="true"
+                    android:textColor="#030007"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/REfNo"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="Ref-No"
+                    android:text="01"
+                    android:inputType="number"
+                    android:textColor="#04000B"
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Site Name: "
+                    android:textColor="#030007"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/SiteName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="Site Name Or Code"
+                    android:text="Bustan"
+                    android:inputType="textPersonName"
+                    android:textColor="#04000B"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="REQUISITION FOR: "
+                    android:textColor="#030007"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/REQUISITIONFor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="REQUISITION FOR"
+                    android:text="Need For Site"
+                    android:inputType="textPersonName"
+                    android:textColor="#04000B"
+                    android:textSize="14dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="4"
+                android:rowCount="14">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:background="#4C1F9C"
+                    android:padding="5dp"
+                    android:text="Item Descripion"
+                    android:textAllCaps="true"
+                    android:textColor="#F9F8FB"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="1"
+                    android:background="#168D9C"
+                    android:padding="5dp"
+                    android:text="Ok"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F9F8FB"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="1"
+                    android:layout_column="3"
+                    android:background="#4C1F9C"
+                    android:padding="5dp"
+                    android:text="Not Ok"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#F9F8FB"
+                    android:textSize="16dp" />
+
+
+
+                <TextView
+                    android:id="@+id/item1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="0"
+                    android:text="Architectural, structural, Plumbing  and electrical drawing"
+                    android:padding="5dp"
+                    android:background="@drawable/backtextview"
+                    android:textColor="#04000B"
+                    android:textSize="9dp" />
+
+
+                <TextView
+                    android:id="@+id/item2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:text="BOQ"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:textSize="9dp"
+                    android:background="@drawable/backtextview"/>
+
+
+
+
+                <TextView
+                    android:id="@+id/item3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="0"
+                    android:text="Master Schedule"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:textSize="9dp"
+                    android:background="@drawable/backtextview"/>
+                <EditText
+                    android:id="@+id/item4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="5"
+                    android:layout_column="0"
+                    android:hint="Item-4"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview"/>
+                <EditText
+                    android:id="@+id/item5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="6"
+                    android:layout_column="0"
+                    android:hint="Item-5"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview"/>
+                <EditText
+                    android:id="@+id/item6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="7"
+                    android:layout_column="0"
+                    android:hint="Item-6"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview"/>
+                <EditText
+                    android:id="@+id/item7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="8"
+                    android:layout_column="0"
+                    android:hint="Item-7"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview"/>
+                <EditText
+                    android:id="@+id/item8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="9"
+                    android:layout_column="0"
+                    android:hint="Item-8"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview"/>
+
+                <EditText
+                    android:id="@+id/item9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="10"
+                    android:layout_column="0"
+                    android:hint="Item-9"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview"/>
+                <EditText
+                    android:id="@+id/item10"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="11"
+                    android:layout_column="0"
+                    android:hint="Item-10"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview"/>
+
+                <EditText
+                    android:id="@+id/Qty1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="1"
+                    android:layout_marginTop="2dp"
+                    android:hint="Ok"
+                    android:text="Ok"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:textSize="9dp"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Qty2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="1"
+                    android:text="Ok"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:textSize="9dp"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Qty3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="1"
+                    android:hint="Qty-3"
+                    android:text="Ok"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:textSize="9dp"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Qty4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="5"
+                    android:layout_column="1"
+                    android:hint="Qty-4"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Qty5"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="6"
+                    android:layout_column="1"
+                    android:hint="Qty-5"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Qty6"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="7"
+                    android:layout_column="1"
+                    android:hint="Qty-6"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Qty7"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="8"
+                    android:layout_column="1"
+                    android:hint="Qty-7"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Qty8"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="9"
+                    android:layout_column="1"
+                    android:hint="Qty-8"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Qty9"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="10"
+                    android:layout_column="1"
+                    android:hint="Qty-9"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Qty10"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="11"
+                    android:layout_column="1"
+                    android:hint="Qty-10"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+
+                <EditText
+                    android:id="@+id/Remarks1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="2"
+                    android:layout_column="3"
+                    android:layout_marginTop="2dp"
+                    android:hint="Not Ok"
+                    android:text="Not Ok"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:textSize="9dp"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Remarks2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_column="3"
+                    android:layout_marginTop="2dp"
+                    android:hint="Not Ok"
+                    android:text="Not Ok"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:textSize="9dp"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Remarks3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="4"
+                    android:layout_column="3"
+                    android:layout_marginTop="2dp"
+                    android:hint="Rem-3"
+                    android:text="Not Ok"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:textSize="9dp"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Remarks4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="5"
+                    android:layout_column="3"
+                    android:layout_marginTop="2dp"
+                    android:hint="Rem-4"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Remarks5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="6"
+                    android:layout_column="3"
+                    android:layout_marginTop="2dp"
+                    android:hint="Rem-5"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Remarks6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="7"
+                    android:layout_column="3"
+                    android:layout_marginTop="2dp"
+                    android:hint="Rem-6"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Remarks7"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="8"
+                    android:layout_column="3"
+                    android:layout_marginTop="2dp"
+                    android:hint="Rem-7"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Remarks8"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="9"
+                    android:layout_column="3"
+                    android:layout_marginTop="2dp"
+                    android:hint="Rem-8"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Remarks9"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="10"
+                    android:layout_column="3"
+                    android:layout_marginTop="2dp"
+                    android:hint="Rem-9"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+                <EditText
+                    android:id="@+id/Remarks10"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="11"
+                    android:layout_column="3"
+                    android:layout_marginTop="2dp"
+                    android:hint="Rem-10"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"
+                    android:textColor="#04000B"
+                    android:background="@drawable/backtextview" />
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Not : "
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#04000B"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/NotET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:background="@drawable/backtextview"
+                android:hint=" If Any   "
+                android:inputType="textPersonName"
+                android:padding="5dp"
+                android:textColor="#04000B"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <Button
+                android:id="@+id/CreateBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Pdf" />
+
+            <Button
+                android:id="@+id/SaveBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SaveBtn1" />
+            <Button
+                android:id="@+id/SaveBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SaveBtn2" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
